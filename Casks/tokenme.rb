@@ -3,15 +3,15 @@
 # smaller arm64-only image. The app updates itself in place (the panel's
 # in-app updater swaps the bundle), hence auto_updates.
 cask "tokenme" do
-  version "0.1.4"
+  version "0.1.5"
 
   on_arm do
     url "https://github.com/Bencibr/tokenme/releases/download/v#{version}/tokenme_#{version}_arm64.dmg"
-    sha256 "b2b26c762f3afb96ff8be1a39c75ed7ffc57b55dbf6524a82e4449d392215dad"
+    sha256 "081788924678038f1ad16108d304d0b6674d3888bb32067aae38ca5475a37d99"
   end
   on_intel do
     url "https://github.com/Bencibr/tokenme/releases/download/v#{version}/tokenme_universal.dmg"
-    sha256 "e48aa518d759ede358606af5c10ff0dc5088ca3ed10918f13ae3905176f8f727"
+    sha256 "13e8613768ec7bc268e033a6f41fde1f36f253a9d2af7f7f8b2d741e157464b3"
   end
 
   name "TokenMe"
