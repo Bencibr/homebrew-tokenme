@@ -4,7 +4,7 @@
 class TokenmeCli < Formula
   desc "Cross-tool AI token usage and cost from the tools' own logs"
   homepage "https://github.com/Bencibr/tokenme"
-  version "0.1.5"
+  version "0.1.6"
   license "MIT"
 
   livecheck do
@@ -20,10 +20,10 @@ class TokenmeCli < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Bencibr/tokenme/releases/download/v#{version}/tokenme-cli-aarch64-apple-darwin.tar.gz"
-      sha256 "3efcbabde2a1ab993d88feaadbdd7e02acbd8c9762a1d86cc4a0c5d5a0c79e88"
+      sha256 "2152628c86f16fad72ea01e71ef71963b5d6a77bf874ea8a09a26f45a077f5f2"
     else
       url "https://github.com/Bencibr/tokenme/releases/download/v#{version}/tokenme-cli-x86_64-apple-darwin.tar.gz"
-      sha256 "76b07c671d2ea00b04f5530d7e8a319bcedabe018a9e37c0a34d98fcac79838e"
+      sha256 "eeb9ad41dfb8a7935e756d5dff40d1ce1b2853ef1bc9bb3e1c4e3939667a3874"
     end
   end
 
